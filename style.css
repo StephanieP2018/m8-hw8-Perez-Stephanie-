@@ -138,14 +138,18 @@ footer {
 @media (max-width: 500px) {
   /* 1. Arrange the header links on a narrow screen */
   header {
-    padding: 24px 16px;
+    padding: 12px 16px;
+  }
+
+  header a {
+    font-size: 1.25rem;
   }
 
   nav {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 4px;
+    gap: 3px;
     text-align: center;
   }
 
